@@ -1,7 +1,7 @@
 {
-  "name": "angular-possessive-directive",
-  "version": "1.0.1",
-  "main": "possessive.js",
+  "name": "angular-2-digit-number-directive",
+  "version": "1.0.0",
+  "main": "2digitnumber.js",
   "ignore": [
         "bower.json",
         "LICENSE",
