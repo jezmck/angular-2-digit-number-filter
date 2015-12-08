@@ -10,18 +10,18 @@ Produces something like: `12`; `1.2`; `.12`
 
 Include the file:
 ```html
-<script src="/.../2digitnumber.js"></script>
+<script src="/.../twodigitnumber.js"></script>
 ```
 
 Import it to the angular applicaiton:
 ```javascript
-angular.module('myApp', ['filter.2digitnumber']);
+angular.module('myApp', ['filter.twodigitnumber']);
 ```
 
 Use it in the view:
 ```html
-<span>{{ 120.2 | 2digitnumber }} thing </span> → 120
-<span>{{ 12.02 | 2digitnumber }} thing </span> → 12
-<span>{{ 1.202 | 2digitnumber }} thing </span> → 1.2
-<span>{{ .1202 | 2digitnumber }} thing </span> → .12
+<span>{{ 120.2 | twodigitnumber }} thing </span> → 120
+<span>{{ 12.02 | twodigitnumber }} thing </span> → 12
+<span>{{ 1.202 | twodigitnumber }} thing </span> → 1.2
+<span>{{ .1202 | twodigitnumber }} thing </span> → .12
 ```
