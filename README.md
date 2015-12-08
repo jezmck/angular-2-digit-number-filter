@@ -1,25 +1,25 @@
-angular-possessive-filter
-===========================
+angular-2-digit-number-filter
+=============================
 
-possessive filter for angular.js
-Adds an apostrophe+s or apostrophe when needed to proper nouns.
-produces something like: Greg's or Charles' 
+2 digit number filter for angular.js
+Show 2, 1 or zero decimal places to produce a number with a minimum of two digits.
+produces something like: 17; 1.7; .17
 
 
 ## Usage
 
 Include the file:
 ```html
-<script src="/.../possessive.js"></script>
+<script src="/.../2digitnumber.js"></script>
 ```
 
 Import it to the angular applicaiton:
 ```javascript
-angular.module('myApp', ['filter.possessive']);
+angular.module('myApp', ['filter.2digitnumber']);
 ```
 
 Use it in the view:
 ```html
-<span>{{ Greg | possessive}} thing </span>
-<span>{{ Charles | possessive}} thing </span>
+<span>{{ 1.7 | 2digitnumber}} thing </span>
+<span>{{ 17.11 | 2digitnumber}} thing </span>
 ```
