@@ -3,7 +3,7 @@ angular-twodigitnumber-filter
 
 Two digit number filter for angular.js
 Show 2, 1 or zero decimal places to produce a string of a number with a *minimum* of two digits.
-Produces something like: 12; 1.2; .12
+Produces something like: `12`; `1.2`; `.12`
 
 
 ## Usage
